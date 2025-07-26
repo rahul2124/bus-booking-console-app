@@ -30,35 +30,35 @@ This is a **console-based Java application** built using **Spring Boot**. It sim
 
 ## 🗂️ Project Structure
 
+```
 busbooking/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/example/busbooking/
-│ │ │ ├── model/ # 📦 Data Models
-│ │ │ │ ├── Bus.java
-│ │ │ │ ├── Route.java
-│ │ │ │ ├── Schedule.java
-│ │ │ │ └── Booking.java
-│ │ │ │
-│ │ │ ├── service/ # 🔧 Business Logic
-│ │ │ │ ├── BusService.java
-│ │ │ │ ├── RouteService.java
-│ │ │ │ ├── SchedulerService.java
-│ │ │ │ └── BookingService.java
-│ │ │ │
-│ │ │ ├── ConsoleApp.java # 🖥️ Handles CLI using Scanner
-│ │ │ └── BusbookingApplication.java # 🚀 Main class with @SpringBootApplication
-│ │ │
-│ │ └── resources/
-│ │ └── application.properties # ⚙️ Empty or minimal config (no DB needed)
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/busbooking/
+│   │   │       ├── model/                      # 📦 Data Models
+│   │   │       │   ├── Bus.java
+│   │   │       │   ├── Route.java
+│   │   │       │   ├── Schedule.java
+│   │   │       │   └── Booking.java
+│   │   │       │
+│   │   │       ├── service/                    # 🔧 Business Logic
+│   │   │       │   ├── BusService.java
+│   │   │       │   ├── RouteService.java
+│   │   │       │   ├── SchedulerService.java
+│   │   │       │   └── BookingService.java
+│   │   │       │
+│   │   │       ├── ConsoleApp.java             # 🖥️ Handles CLI using Scanner
+│   │   │       └── BusbookingApplication.java  # 🚀 Main class with @SpringBootApplication
+│   │   │
+│   │   └── resources/
+│   │       └── application.properties          # ⚙️ Minimal config
 │
-├── .gitignore # 🧼 Ignore build and IDE files
-├── pom.xml # 📦 Maven config (Spring Boot, Lombok)
-├── README.md # 📘 Project info & usage instructions
+├── .gitignore                                  # 🧼 Ignore build/IDE files
+├── pom.xml                                     # 📦 Maven config (Spring Boot, Lombok)
+├── README.md                                   # 📘 Project info & usage
+```
 
-
----
 
 ## ⚙️ Dependencies in `pom.xml`
 
