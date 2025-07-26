@@ -91,52 +91,52 @@ busbooking/
 
 === Bus Booking System ===
 
-1.Add Bus
-Choice: 1
-Enter Bus Name: KSRTC Express
-Enter Total Seats: 40
-Bus added successfully!
+1. Add Bus
+   Choice: 1
+   Enter Bus Name: KSRTC Express
+   Enter Total Seats: 40
+   Bus added successfully!
 
-2.Add Route
-Choice: 2
-Enter Source: Bangalore
-Enter Destination: Chennai
-Route added successfully!
+2. Add Route
+   Choice: 2
+   Enter Source: Bangalore
+   Enter Destination: Chennai
+   Route added successfully!
 
-3.Add Schedule
-Choice: 3
-Enter Bus ID: 1
-Enter Route ID: 1
-Enter Departure Time (yyyy-MM-dd HH:mm): 2023-08-01 10:00
-Enter Arrival Time (yyyy-MM-dd HH:mm): 2023-08-01 12:00
-Schedule added successfully!
+3. Add Schedule
+   Choice: 3
+   Enter Bus ID: 1
+   Enter Route ID: 1
+   Enter Departure Time (yyyy-MM-dd HH:mm): 2023-08-01 10:00
+   Enter Arrival Time (yyyy-MM-dd HH:mm): 2023-08-01 12:00
+   Schedule added successfully!
 
-4.Book Seats
-Choice: 4
-Enter Schedule ID: 1
-Enter Seat Number: 1
-Enter Passenger Name: John Doe
-Seat booked successfully!
+4. Book Seats
+   Choice: 4
+   Enter Schedule ID: 1
+   Enter Seat Number: 1
+   Enter Passenger Name: John Doe
+   Seat booked successfully!
 
-5.View All Schedules
-Choice: 5
-Schedule ID: 1
-Bus: KSRTC Express
-Source: Bangalore
-Destination: Chennai
-Departure Time: 2023-08-01 10:00
-Arrival Time: 2023-08-01 12:00
-Seats Available: 39
-Seats Booked: 1
+5. View All Schedules
+   Choice: 5
+   Schedule ID: 1
+   Bus: KSRTC Express
+   Source: Bangalore
+   Destination: Chennai
+   Departure Time: 2023-08-01 10:00
+   Arrival Time: 2023-08-01 12:00
+   Seats Available: 39
+   Seats Booked: 1
 
-6.View Bookings
-Choice: 6
-Enter Schedule ID: 1
-Booking ID: 1
-Seat Number: 1
-Passenger Name: John Doe
+6. View Bookings
+   Choice: 6
+   Enter Schedule ID: 1
+   Booking ID: 1
+   Seat Number: 1
+   Passenger Name: John Doe
 
-7.Exit
+7. Exit
 
 ---
 
